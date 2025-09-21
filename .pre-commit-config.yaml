@@ -1,13 +1,13 @@
 repos:
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.33.3
+  rev: 0.34.0
   hooks:
   - name: Check GitHub Actions Workflows
     id: check-github-workflows
     args:
     - --verbose
 - repo: https://github.com/hadolint/hadolint
-  rev: v2.12.0
+  rev: v2.13.1
   hooks:
   - name: Check Dockerfile
     id: hadolint
